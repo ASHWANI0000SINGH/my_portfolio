@@ -7,7 +7,9 @@ const Technologies = () => {
     <h2>TECHNOLOGIES</h2>
       <div className='image-container'>
 
-          <img
+      <div>
+        <div  >
+        <img
             src="https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif"
             alt="html"
             width="100px"
@@ -28,7 +30,15 @@ const Technologies = () => {
             alt=""
             width="100px"
           />
-          <img
+          <br />
+
+        </div>
+      
+
+      </div>
+
+      <div >
+        <img
             src="https://media0.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif?cid=ecf05e475s8hxqzy0cpflybg0v5bj2pbnspil14434ddkto2&rid=giphy.gif"
             alt=""
             width="100px"
@@ -48,6 +58,15 @@ const Technologies = () => {
             alt=""
             width="100px"
           />
+          <br />
+
+
+        </div>
+
+
+
+          
+          
       </div>
 
     </div>

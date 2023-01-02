@@ -3,7 +3,7 @@
       {
         "date": "07/10/2021",
         "title": "TECHY STAR",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "description": "This is the simple responsive website created using reactjs.",
         "url": "https://reactone-xi.vercel.app",
         "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
       },
@@ -11,14 +11,14 @@
       {
         "date": "11/12/2021",
         "title": "VIDEO HUB",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "description": "This website is created using react-chakra library This website allow admin to put the videos and user cab watch the videos through website",
         "url": "https://reactprject2.vercel.app",
         "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
       },
       {
         "date": "15/7/2022",
         "title": "XCrypto",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "description": "This website is a real-time crypto app using coing gecko api .User can able to see each and every detail about the exchanges as well as all crpto-coin.",
         "url": "https://react-xcrypto-app.vercel.app",
         "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
       },
@@ -26,14 +26,14 @@
       {
         "date": "17/9/2022",
         "title": "REACT CART",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "description": "In this app user can add the products in cart and all the deatils will be available in the  cart. It is used to showcase react-redux using the react-redux-toolkit libaray. " ,
         "url": "https://react-cart-wheat.vercel.app",
         "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
       },
       {
         "date": "20/9/2022",
         "title": "PORTFOLIO",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "description": " This is my Portfolio with modern day design and UI, I have showcased my entire journey of web-application " ,
         "url": "/",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
       }

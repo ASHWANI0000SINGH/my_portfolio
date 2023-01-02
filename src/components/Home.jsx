@@ -95,12 +95,19 @@ const Home = () => {
               
             </p>
             <span>Projects Done</span>
+            <br />
+            <br />
+
+            <p>Contact</p>
+
+            <span>singhashwanikumar793@gmail.com</span>
+
           </article>
 
-          <article data-special>
+          {/* <article data-special>
             <p>Contact</p>
             <span>singhashwanikumar793@gmail.com</span>
-          </article>
+          </article> */}
         </aside>
       </div>
 

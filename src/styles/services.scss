@@ -2,19 +2,19 @@
 #services {
   width: 100%;
   margin-top: 4rem;
-  height: 100vh;
+  height: 110vh;
   padding: $p;
   background-color: $color5;
   color: $color4;
   overflow: hidden;
-  > h2 {
-    font: 700 2.5rem $text2;
+    > h2 {
+      font: 700 2.5rem $text2;
 
-      width: fit-content;
-      // border-bottom: 1px solid $color1;
-      padding: 0.5rem;
-      margin: auto;
-  }
+        width: fit-content;
+        // border-bottom: 1px solid $color1;
+        padding-top: 0.5rem;
+        margin: auto;
+    }
 
   > section {
     display: grid;

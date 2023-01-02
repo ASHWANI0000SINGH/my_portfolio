@@ -1,101 +1,101 @@
-// @media screen and (max-width: 1367px) {
-//   nav {
-//     padding: 0 $p_md;
-//   }
+@media screen and (max-width: 1367px) {
+  nav {
+    padding: 0 $p_md;
+  }
 
-//   #home {
-//     height: 100vh;
-//     > section {
-//       &:first-of-type {
-//         padding-left: $p_md;
-//         > div aside {
-//           width: 85%;
-//         }
-//       }
-//     }
-//   }
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_md;
+        > div aside {
+          width: 85%;
+        }
+      }
+    }
+  }
 
-//   #work {
-//     padding: 8rem $p_md;
-//     height: 110vh;
-//     > section {
-//       > article {
-//         height: 20rem;
-//         width: 90%;
-//       }
-//       .workItem {
-//         padding: 2rem;
-//         height: 20rem;
-//         > aside {
-//           > p {
-//             margin: 1rem;
-//           }
-//           > a {
-//             margin: 1rem;
-//           }
-//         }
-//       }
-//     }
-//   }
+  #work {
+    padding: 8rem $p_md;
+    height: 110vh;
+    > section {
+      > article {
+        height: 20rem;
+        width: 90%;
+      }
+      .workItem {
+        padding: 2rem;
+        height: 20rem;
+        > aside {
+          > p {
+            margin: 1rem;
+          }
+          > a {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
 
-//   #services {
-//     padding: $p_md;
-//     > section {
-//       height: 90%;
-//     }
-//   }
-//   #testimonial {
-//     padding: $p_md;
-//     > section {
-//       width: 100%;
-//     }
-//   }
+  #services {
+    padding: $p_md;
+    > section {
+      height: 90%;
+    }
+  }
+  #testimonial {
+    padding: $p_md;
+    > section {
+      width: 100%;
+    }
+  }
 
-//   #contact > section > form {
-//     > input,
-//     > button {
-//       font: 400 0.8rem $text1;
-//       width: 50%;
-//     }
-//   }
+  #contact > section > form {
+    > input,
+    > button {
+      font: 400 0.8rem $text1;
+      width: 50%;
+    }
+  }
 
-//   footer {
-//     padding-left: $p_md;
-//   }
-// }
+  footer {
+    padding-left: $p_md;
+  }
+}
 
-// @media screen and (max-width: 1100px) {
-//   nav {
-//     padding: 0 $p_base;
-//   }
+@media screen and (max-width: 1100px) {
+  nav {
+    padding: 0 $p_base;
+  }
 
-//   #home {
-//     height: 110vh;
-//     > section {
-//       &:first-of-type {
-//         padding-left: $p_base;
-//         > div {
-//           > h1 {
-//             font: 900 3rem $text1;
-//           }
+  #home {
+    height: 110vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_base;
+        > div {
+          > h1 {
+            font: 900 3rem $text1;
+          }
 
-//           aside {
-//             width: 100%;
-//           }
-//         }
-//       }
-//     }
-//   }
+          aside {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 
-//   #work {
-//     padding: 8rem $p_base;
-//   }
+  #work {
+    padding: 8rem $p_base;
+  }
 
-//   #services {
-//     padding: $p_base_inverse;
-//     text-align: center;
-//   }
-// }
+  #services {
+    padding: $p_base_inverse;
+    text-align: center;
+  }
+}
 
 @media screen and (max-width: 900px) {
   nav {
@@ -316,10 +316,12 @@
           }
 
           > p {
-            letter-spacing: 0;
-            line-height: unset;
+            // letter-spacing: 2px;
+            // line-height: unset;
             margin: 0%;
-            font-size: 0.75rem;
+            font-size: 0.70rem;
+            letter-spacing: 1px;
+            line-height: 200%;
           }
 
           > a {
@@ -332,37 +334,20 @@
     }
   }
 
-  #timeline {
-    height: 50%;
-    // background-color: yellow;
-    .timelineBox::after {
-      left: 31px;
-    }
+  #experience{
+    // margin: 0 $p;
+    margin-top: -10vh;
+    // padding-top: 6vh;
+    // background-color: red;
+    > h2 {
+        font: 700 2.5rem $text2;
+          width: fit-content;
+          padding-top: 0.5vh;
+          
 
-    .timelineItem {
-      width: 100%;
-      padding-left: 5rem;
-      padding-right: 2rem;
-      display: flex;
-
-      &:nth-child(odd){
-        text-align: left;
-        
-    }
-    }
-
-    .rightTimeline {
-      left: 0%;
-      // background-color: red;
-    }
-
-    .leftTimeline,
-    .rightTimeline {
-      &::after {
-        left: 15px;
       }
-    }
-  }
+      
+}
 
   #services {
     > section {
@@ -383,7 +368,7 @@
     height: unset;
     gap: 6rem;
     > article {
-      width: 60%;
+      width: 80%;
       height: 60vw;
     // background-color: red;
 
@@ -391,36 +376,14 @@
   }
 
 #technologies{
-  margin-top: 2vh;
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-    // padding: 2rem $p;
-    // background-color: $color1;
-    color: $color5;
-    // background-color: red;
-    // margin-top: -4rem;
-    // margin-bottom: 4rem;
-  .image-container{
-    width: 100%;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        background-color: $color1;
-        
-    img{
-      width: 60px;
-      animation: moveRight 5s infinite linear alternate, normal, reverse;
-
-
-    }
-  }
+  
 }
 
   #contact {
     grid-template-columns: 1fr;
     > aside {
       display: none;
-    }
+    } 
   }
 }

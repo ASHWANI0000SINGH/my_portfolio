@@ -9,21 +9,23 @@ import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
 import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
 
 
 
 function App() {
   const [menuOpen,setMenuOpen]=useState(false);
-  console.log(menuOpen);
+  // console.log(menuOpen);
   return (
     <>
     <HeaderPhone  menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     <Header  menuOpen={menuOpen}  setMenuOpen={setMenuOpen}/>
     <Home/> 
     <Work/>
-    <TimeLine/>
+    <Experience/>
+    {/* <TimeLine/> */}
     <Services/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
     <Technologies/>
     <Contact/>
     <Toaster/>

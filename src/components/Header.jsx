@@ -33,17 +33,21 @@ const NavContent = ({ setMenuOpen }) => (
       <a onClick={() => setMenuOpen(false)} href="#work">
         Work
       </a>
-      <a onClick={() => setMenuOpen(false)} href="#timeline">
+      <a onClick={() => setMenuOpen(false)} href="#experience">
         Timeline
       </a>
       <a onClick={() => setMenuOpen(false)} href="#services">
         Services
       </a>
-      <a onClick={() => setMenuOpen(false)} href="#testimonial">
-        Testimonial
+      <a onClick={() => setMenuOpen(false)} href="#technologies">
+        Technologies
       </a>
       <a onClick={() => setMenuOpen(false)} href="#contact">
         Contact
+      </a>
+
+      <a onClick={() => setMenuOpen(false)} href="https://drive.google.com/file/d/1KnY9IXw00OsxoVZMs6R1De8_Ln3pox6j/view?usp=drivesdk">
+        CV
       </a>
     </div>
     <a href="mailto:singhashwanikumar793@gmail.com">
