@@ -46,7 +46,7 @@ const NavContent = ({ setMenuOpen }) => (
         Contact
       </a>
 
-      <a onClick={() => setMenuOpen(false)} href="https://drive.google.com/file/d/1KnY9IXw00OsxoVZMs6R1De8_Ln3pox6j/view?usp=drivesdk">
+      <a onClick={() => setMenuOpen(false)} href="https://drive.google.com/file/d/1s_TVVM8b9eR2MiMMKvgz1P7jOxbvQsdl/view?usp=drivesdk">
         CV
       </a>
     </div>

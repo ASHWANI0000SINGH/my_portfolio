@@ -375,10 +375,16 @@
     }
   }
 
-#technologies{
-  width: 100%;
-  
+  #technologies{
+    padding:$p;
+    height: 70vh;
+
+    .image-container{
+      margin-top: 6vh;
+    }
+          
 }
+
 
   #contact {
     grid-template-columns: 1fr;

@@ -36,6 +36,21 @@
         "description": " This is my Portfolio with modern day design and UI, I have showcased my entire journey of web-application " ,
         "url": "/",
         "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      },
+      {
+        "date": "10/2/2023",
+        "title": "YOUTUBE_LITE",
+        "description": " This is yoytube-Lite clone fully responsive " ,
+        "url": "https://youtube-chi-amber.vercel.app/",
+        "imgSrc": "https://i.ibb.co/CtbzddT/youtube-6621791-1920.jpg"
+      },
+      {
+        "date": "23/2/2023",
+        "title": "CHAT_GPT_CLONE",
+        "description": " This is chat - gpt -clone " ,
+        "url": "https://chatgpt-chi-two.vercel.app",
+        "imgSrc": "https://i.ibb.co/VjzGL7t/ai-generated-7767321-1920.jpg"
       }
+
     ]
   }

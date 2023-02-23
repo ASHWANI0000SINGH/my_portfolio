@@ -1,12 +1,15 @@
 {
     "projects": [
       {
-        "date": "07/10/2021",
-        "title": "Kv Asc Centre South",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://reactone-xi.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+        "title": "Languages",
+        "description": " I have good knowledge of Javscript, and i am also learning java",
+        "imgSrc": "https://media0.giphy.com/media/ZG6ntb6RclFZ7sjqcz/giphy.gif?cid=ecf05e47hujgsk3y9rqoju6o7kdxbka25lyefh1rg90hkx5k&rid=giphy.gif",
+        "imgSrc": "https://media2.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif"
+
+
       },
+
+
   
       {
         "date": "11/12/2021",

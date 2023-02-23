@@ -1,43 +1,36 @@
 #technologies{
-    width: 100%;
-    background-color: $color1;
-    color: $color5;
-    height: 50vh;
-    // background-color: red;
-    margin-top:  10vh;
-    padding:  $p;
+  width: 100%;
+  // background-color: $color1;
+  // color: $color5;
+  height: 50vh;
+  // background-color: red;
+  margin-top:  10vh;
+  padding:  $p;
 height: 80vh;
 
-    >h2{
-        font: 700 2.5rem $text2;
-      width: fit-content;
-    //   border-bottom: 1px solid $color6_1;
-      padding: 0.5rem;
-      margin: auto;
+  >h2{
+      font: 700 2.5rem $text2;
+    width: fit-content;
+  //   border-bottom: 1px solid $color6_1;
+    padding: 0.5rem;
+    margin: auto;
 
-    }
-    
+  }
+  
 
-    .image-container{
-        display: flex;
-        justify-content:space-around;
-        align-items:center;
-        // background-color: red;
-        padding:0 $p;
-        // overflow-x: hidden;
-        // overflow-y: hidden;
-        width: 100%;
+  .image-container{
+      display: flex;
+      justify-content:space-around;
+      align-items:center;
+      padding:0 $p;
+      width: 100%;
+      margin-top: 6vh;
 
 
-        >img{
-              margin-top: 4rem;
-                filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0)) hue-rotate(200deg);
-                // animation: moveRight 5s infinite linear alternate, normal, reverse;;
-              }
-    }
+  }
 
-    
-    
-    
-          
+  
+  
+  
+        
 }

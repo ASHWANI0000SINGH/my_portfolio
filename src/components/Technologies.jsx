@@ -10,11 +10,11 @@ const Technologies = () => {
       <div>
         <div  >
         <img
-            src="https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif"
-            alt="html"
+            src="https://media0.giphy.com/media/ZG6ntb6RclFZ7sjqcz/giphy.gif?cid=ecf05e47hujgsk3y9rqoju6o7kdxbka25lyefh1rg90hkx5k&rid=giphy.gif"
+            alt=""
             width="100px"
-
           />
+        
           <img
             src="https://media2.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif"
             alt="css"
@@ -25,12 +25,13 @@ const Technologies = () => {
             alt="js"
             width="100px"
           />
+          
           <img
-            src="https://media3.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif"
+            src="https://media0.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif?cid=ecf05e475s8hxqzy0cpflybg0v5bj2pbnspil14434ddkto2&rid=giphy.gif"
             alt=""
             width="100px"
           />
-          <br />
+          
 
         </div>
       
@@ -38,11 +39,12 @@ const Technologies = () => {
       </div>
 
       <div >
-        <img
-            src="https://media0.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif?cid=ecf05e475s8hxqzy0cpflybg0v5bj2pbnspil14434ddkto2&rid=giphy.gif"
+      <img
+            src="https://media3.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif"
             alt=""
             width="100px"
           />
+        
           <img
             src="https://media1.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif"
             alt=""
@@ -53,12 +55,15 @@ const Technologies = () => {
             alt=""
             width="100px"
           />
-          <img
-            src="https://media0.giphy.com/media/ZG6ntb6RclFZ7sjqcz/giphy.gif?cid=ecf05e47hujgsk3y9rqoju6o7kdxbka25lyefh1rg90hkx5k&rid=giphy.gif"
-            alt=""
+          
+
+<img
+            src="https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif"
+            alt="html"
             width="100px"
+
           />
-          <br />
+          
 
 
         </div>
