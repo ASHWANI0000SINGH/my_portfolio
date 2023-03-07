@@ -15,14 +15,28 @@ nav {
   > div {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     a {
-      color: $color6;
-      font-weight: 500;
-      transition: all 0.3s;
-      letter-spacing: 1px;
+      // color: $color6;
+      // font-weight: 700;
+      // transition: all 0.3s;
+      // letter-spacing: 1px;
+      font-size: 1.2rem;
+
+      border: 0.5px  $color6_1;
+    // padding: 0.5rem 2rem;
+    background-color: $color1;
+    cursor: pointer;
+    color: $color6;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.5s;
       &:hover {
         color: $color3;
+        background-color: $color6;
+      color: $color4;
+      padding: 1vh;
+        
       }
     }
   }

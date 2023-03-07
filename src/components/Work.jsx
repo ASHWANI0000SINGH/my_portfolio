@@ -2,6 +2,9 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import data from "../assets/data.json";
+import {
+  AiFillGithub,
+} from "react-icons/ai";
 
 const Work = () => {
   return (
@@ -17,17 +20,25 @@ const Work = () => {
             interval={2000}
             infiniteLoop={true}
             autoPlay={true}
+            length={1}
             
           >
             {data.projects.map((i) => (
-              <div key={i.title} className="workItem">
+              <div  key={i.title} className="workItem">
                 <img src={i.imgSrc} alt={i.title} />
                 <aside>
                   <h3>{i.title}</h3>
                   <p>{i.description}</p>
+                  <div className="aside-box">
                   <a target={"blank"} href={i.url}>
                     View Demo
+                  </a> 
+                  <a   target={"blank"} href={i.github}>
+                      Code <AiFillGithub/>
+                    
                   </a>
+
+                  </div>
                 </aside>
               </div>
             ))}

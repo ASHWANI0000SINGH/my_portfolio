@@ -9,15 +9,20 @@
 @import "timeline";
 @import "services";
 @import "testimonial.scss";
-@import "technologies.scss";
+// @import "technologies.scss";
 @import "contact.scss";
 @import "footer";
 @import "mediaquery.scss";
+@import "technologies2.scss";
+
+
 
 * {
   margin: 0%;
   padding: 0%;
-  font-family: $text2;
+  // font-family: $text2;
+  font-family:monospace!important;
+
   box-sizing: border-box;
   scroll-behavior: smooth;
 }

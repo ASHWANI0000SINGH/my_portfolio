@@ -4,12 +4,12 @@ import Home from "./components/Home";
 import Work from "./components/Work";
 import TimeLine from "./components/TimeLine";
 import Services from "./components/Services";
-import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
-import Technologies from "./components/Technologies";
+import Technologies from "./components/Technologies2";
 import Experience from "./components/Experience";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

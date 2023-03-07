@@ -1,56 +1,79 @@
 {
     "projects": [
       {
-        "date": "07/10/2021",
-        "title": "TECHY STAR",
-        "description": "This is the simple responsive website created using reactjs.",
-        "url": "https://reactone-xi.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+        "date": "06/03/2023",
+        "title": "GOOGLE_CLONE",
+        "description": " This is Goole search engine clone using google search_api. " ,
+        "url": "https://google-cloneb-by-ashwanisingh.netlify.app/",
+        "imgSrc": "https://res.cloudinary.com/doxflve1g/image/upload/v1678097226/pexels-sarah-blocksidge-13628541_kgr09c.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/google_clone"
+      },
+      {
+        "date": "23/2/2023",
+        "title": "CHAT_GPT_CLONE",
+        "description": " This is chat - gpt -clone using CHAT_GPT API. " ,
+        "url": "https://chatgpt-chi-two.vercel.app",
+        "imgSrc": "https://i.ibb.co/VjzGL7t/ai-generated-7767321-1920.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/chatGPT"
+      },
+      {
+        "date": "10/2/2023",
+        "title": "YOUTUBE_LITE",
+        "description": " This is youtube-Lite clone fully responsive,sleek and user friendly design " ,
+        "url": "https://youtube-chi-amber.vercel.app/",
+        "imgSrc": "https://i.ibb.co/CtbzddT/youtube-6621791-1920.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/YouTube_lite_clone"
+
+      },
+      {
+        "date": "15/7/2022",
+        "title": "XCrypto",
+        "description": "This website is a real-time crypto app using coing gecko api.",
+        "url": "https://react-xcrypto-app.vercel.app",
+        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/real_time_crypto_app"
+
+      },
+      {
+        "date": "20/9/2022",
+        "title": "PORTFOLIO",
+        "description": " This is my Portfolio,showcased my entire journey of web-application " ,
+        "url": "/",
+        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/my_portfolio"
+
+      },
+      {
+        "date": "17/9/2021",
+        "title": "PORTFOLIO-2",
+        "description": "This is my Portfolio,showcased my entire journey of web-application " ,
+        "url": "https://ashwani-singh-portfolio.netlify.app",
+        "imgSrc":"https://res.cloudinary.com/doxflve1g/image/upload/v1677758430/glenn-carstens-peters-P1qyEf1g0HU-unsplash_1_affgrf.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/Portfolio_AshwaniSingh"
+
       },
   
       {
         "date": "11/12/2021",
         "title": "VIDEO HUB",
-        "description": "This website is created using react-chakra library This website allow admin to put the videos and user cab watch the videos through website",
+        "description": "This website is created using react-chakra library,sleek and modern design used",
         "url": "https://reactprject2.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/website_using_react_chakraUI"
+
       },
-      {
-        "date": "15/7/2022",
-        "title": "XCrypto",
-        "description": "This website is a real-time crypto app using coing gecko api .User can able to see each and every detail about the exchanges as well as all crpto-coin.",
-        "url": "https://react-xcrypto-app.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
-      },
+      
   
       {
         "date": "17/9/2022",
         "title": "REACT CART",
-        "description": "In this app user can add the products in cart and all the deatils will be available in the  cart. It is used to showcase react-redux using the react-redux-toolkit libaray. " ,
+        "description": "This App is just to showcase react-redux using the react-redux-toolkit library. " ,
         "url": "https://react-cart-wheat.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
-      },
-      {
-        "date": "20/9/2022",
-        "title": "PORTFOLIO",
-        "description": " This is my Portfolio with modern day design and UI, I have showcased my entire journey of web-application " ,
-        "url": "/",
-        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
-      },
-      {
-        "date": "10/2/2023",
-        "title": "YOUTUBE_LITE",
-        "description": " This is yoytube-Lite clone fully responsive " ,
-        "url": "https://youtube-chi-amber.vercel.app/",
-        "imgSrc": "https://i.ibb.co/CtbzddT/youtube-6621791-1920.jpg"
-      },
-      {
-        "date": "23/2/2023",
-        "title": "CHAT_GPT_CLONE",
-        "description": " This is chat - gpt -clone " ,
-        "url": "https://chatgpt-chi-two.vercel.app",
-        "imgSrc": "https://i.ibb.co/VjzGL7t/ai-generated-7767321-1920.jpg"
-      }
+        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/cart_using_redux-toolkit"
 
+      }
+      
+      
     ]
-  }
+}

@@ -196,6 +196,21 @@
   .navBtn {
     display: block;
   }
+  #work{
+    aside{
+      .aside-box{
+        // background-color: black;
+        display: flex;
+        margin-top: -8vh;
+
+        a{
+          // font-size: 0.7rem;
+
+
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -285,7 +300,8 @@
 
     > svg {
       font-size: 2rem;
-      bottom: 12%;
+      bottom: 0%;
+      // background-color: red;
     }
   }
 
@@ -311,6 +327,17 @@
           padding: 0.1rem;
           width: 100%;
 
+          .aside-box{
+            width: 100%;
+            // background-color: black;
+            display: flex;
+            margin-top: 0.2rem;
+            > a {
+              // padding: 0
+              font-size: 0.7rem;
+            }
+          }
+
           > h3 {
             margin: 1rem;
           }
@@ -324,11 +351,7 @@
             line-height: 200%;
           }
 
-          > a {
-            padding: 0.4rem 0.7rem;
-            font-size: 0.7rem;
-            margin: 1rem;
-          }
+          
         }
       }
     }
@@ -364,6 +387,15 @@
       }
     }
   }
+
+  //technologies
+
+.row{
+  margin-bottom: 10vh;
+  // background-color: red;
+  
+}
+
   #testimonial > section {
     height: unset;
     gap: 6rem;
@@ -375,19 +407,16 @@
     }
   }
 
-  #technologies{
-    padding:$p;
-    height: 70vh;
-
-    .image-container{
-      margin-top: 6vh;
-    }
-          
-}
+  
 
 
   #contact {
+    min-height: 60vh;
     grid-template-columns: 1fr;
+    // position: relative;
+    >section{
+      
+    }
     > aside {
       display: none;
     } 

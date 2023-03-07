@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Technologies = () => {
   return (
     <>
-    <div id='technologies'>
+      {/* <div id='technologies'>
     <h2>TECHNOLOGIES</h2>
-      <div className='image-container'>
+      <div classNameName='image-container'>
 
       <div>
         <div  >
@@ -74,10 +74,11 @@ const Technologies = () => {
           
       </div>
 
-    </div>
+    </div> */}
+
+      
     </>
+  );
+};
 
-  )
-}
-
-export default Technologies
+export default Technologies;
