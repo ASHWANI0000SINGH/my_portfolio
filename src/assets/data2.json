@@ -1,22 +1,25 @@
 {
     "projects": [
       {
-        "title": "Languages",
-        "description": " I have good knowledge of Javscript, and i am also learning java",
-        "imgSrc": "https://media0.giphy.com/media/ZG6ntb6RclFZ7sjqcz/giphy.gif?cid=ecf05e47hujgsk3y9rqoju6o7kdxbka25lyefh1rg90hkx5k&rid=giphy.gif",
-        "imgSrc": "https://media2.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif"
-
+        "date": "17/9/2022",
+        "title": "REACT CART",
+        "description": "This App is just to showcase react-redux using the react-redux-toolkit library. " ,
+        "url": "https://react-cart-wheat.vercel.app",
+        "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/cart_using_redux-toolkit"
 
       },
 
 
   
       {
-        "date": "11/12/2021",
-        "title": "JAni College Bangalore ",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "https://reactprject2.vercel.app",
-        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+        "date": "17/9/2021",
+        "title": "PORTFOLIO-2",
+        "description": "This is my Portfolio,showcased my entire journey of web-application " ,
+        "url": "https://ashwani-singh-portfolio.netlify.app",
+        "imgSrc":"https://res.cloudinary.com/doxflve1g/image/upload/v1677758430/glenn-carstens-peters-P1qyEf1g0HU-unsplash_1_affgrf.jpg",
+        "github":"https://github.com/ASHWANI0000SINGH/Portfolio_AshwaniSingh"
+
       },
       {
         "date": "3/3/2022",

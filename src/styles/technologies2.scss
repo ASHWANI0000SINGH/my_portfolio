@@ -1,7 +1,7 @@
 .row{
     width: 100%;
     margin-top: 10vh;
-    margin-bottom: 5vh;
+    // margin-bottom: 5vh;
     margin-left: auto;
     margin-right: auto;
     padding:  $p;
@@ -27,6 +27,7 @@
         color: white;
         text-align: center;
     background: $color5;
+    // background-color: yellow;
 
 
         &:hover{

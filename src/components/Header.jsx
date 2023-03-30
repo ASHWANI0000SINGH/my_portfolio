@@ -31,7 +31,7 @@ const NavContent = ({ setMenuOpen }) => (
         Home
       </a>
       <a onClick={() => setMenuOpen(false)} href="#work">
-        Work
+        Projects
       </a>
       <a onClick={() => setMenuOpen(false)} href="#experience">
         Timeline
@@ -46,7 +46,7 @@ const NavContent = ({ setMenuOpen }) => (
         Contact
       </a>
 
-      <a onClick={() => setMenuOpen(false)} href="https://drive.google.com/file/d/1s_TVVM8b9eR2MiMMKvgz1P7jOxbvQsdl/view?usp=drivesdk">
+      <a onClick={() => setMenuOpen(false)} href="https://drive.google.com/file/d/15ENAPoZlQ0t99x_VkN-q5C9kkOEDsycK/view?usp=drivesdk" target="blank">
         CV
       </a>
     </div>

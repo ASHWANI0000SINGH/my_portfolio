@@ -6,7 +6,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 
-const Work = () => {
+const Projects = () => {
   return (
     <div id="work">
       <h2>Featured Projects</h2>
@@ -51,4 +51,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Projects;

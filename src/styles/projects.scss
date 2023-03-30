@@ -1,6 +1,11 @@
 #work {
-  padding: 0 $p;
+  padding: 10rem $p;
+  
   width: 100%;
+
+  // background-color: red;
+  margin-top: 0;
+  margin-bottom: 8vh;
 
   > h2 {
     font: 700 2.5rem $text2;
@@ -10,12 +15,13 @@
   }
 
   > section {
-    padding-top: 4rem;
+    // padding-top: 4rem;
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    // background-color: red;
     
     > article {
       width: 100%;
@@ -24,11 +30,12 @@
 
     .workItem {
       overflow-y: auto;
-      height: 30vmax;
-      width: 85%;
+      height: 30vmax !important;
+      width: 100%;
       margin: auto;
       display: flex;
       border-radius: 20px;
+      // background-color: red;
 
       > img {
         width: 50%;
