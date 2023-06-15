@@ -1,0 +1,31 @@
+{
+  "technologies": [
+    {
+      "title": "Front End",
+      "description": " My Preferred technologies for front end development and component design. ",
+      "imgSrc": [
+        "https://media3.giphy.com/media/eNAsjO55tPbgaor7ma/giphy.gif",
+        "https://media0.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif",
+        "https://media4.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif"
+      ]
+    },
+    {
+      "title": "Back End",
+      "description": " My Preferred technologies for back end web programming and databse architecture. ",
+      "imgSrc": [
+        "https://media0.giphy.com/media/ZG6ntb6RclFZ7sjqcz/giphy.gif?cid=ecf05e47hujgsk3y9rqoju6o7kdxbka25lyefh1rg90hkx5k&rid=giphy.gif",
+        "https://media0.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif?cid=ecf05e475s8hxqzy0cpflybg0v5bj2pbnspil14434ddkto2&rid=giphy.gif",
+        "https://media0.giphy.com/media/wgFWLRiND4bkyYR4IN/giphy.gif"
+      ]
+    },
+    {
+      "title": "Tools",
+      "description": " My favourite tools for version control , code editing and container orchestration. ",
+      "imgSrc": [
+        "https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif",
+        "https://media1.giphy.com/media/IdyAQJVN2kVPNUrojM/giphy.gif",
+        "https://media.giphy.com/media/kH6CqYiquZawmU1HI6/giphy.gif"
+      ]
+    }
+  ]
+}

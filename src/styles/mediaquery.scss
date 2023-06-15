@@ -389,12 +389,35 @@
   }
 
   //technologies
-
-.row{
-  margin-bottom: 10vh;
-  // background-color: red;
-  
+#technologies{
+  >h1{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: -100px;
+    align-items: center;
+    font: 700 2.5rem $text2;
+  }
+  .container{
+    display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 120vh;
+      // border-radius: 100px;
+      // background-color: red;
+      .col1{
+        width: 100%;
+        margin-top: 25px;
+        .wrapper{
+          padding-bottom: 5vh;
+        }
+        
+      
+    }
+  }
 }
+  
+
+
 
   #testimonial > section {
     height: unset;
@@ -421,4 +444,13 @@
       display: none;
     } 
   }
+}
+
+@media screen and (max-width: 350px) {
+  
+// .container{
+//   background-color: red;
+// }
+
+ 
 }
