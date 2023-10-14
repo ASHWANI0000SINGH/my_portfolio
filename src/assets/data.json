@@ -3,8 +3,9 @@
     {
       "date": "2-/03/2023",
       "title": "Moviix_Movie_App",
-      "description": " This is a movie app using TMDB Api. ",
+      "description": " This is a movie app using TMDB Api used modern day tech stack. ",
       "url": "https://moviix-movieapp.vercel.app",
+     
       "imgSrc": "https://res.cloudinary.com/doxflve1g/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1680153216/ayiman-mohanty-tdoi2OSAJaQ-unsplash_1_mvh4pm.jpg",
       "github": "https://github.com/ASHWANI0000SINGH/moviix_movieapp"
     },

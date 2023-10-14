@@ -12,8 +12,8 @@ const Experience = () => {
     <div id='experience'>
       <h2> Timeline</h2>
 
-    <VerticalTimeline className='vertical-timeline' >
-  <VerticalTimelineElement
+    <VerticalTimeline className='vertical-timeline'  animate={ false }>
+  <VerticalTimelineElement 
     className="vertical-timeline-element--work"
     // contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', }}
     // contentArrowStyle={{ borderRight: '7px solid  white' }}

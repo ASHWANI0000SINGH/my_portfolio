@@ -1,13 +1,23 @@
 
 
+.h2-speacial {
+  font: 700 2.5rem $text2;
+
+        width: fit-content;
+        // border-bottom: 1px solid $color1;
+        padding-top: 0.5rem;
+        margin: auto;
+}
 .container {
   width: 100%;
   height: 50vh;
   display: flex;
   flex-direction: row;
   margin-top: 10vh;
-  margin-bottom: 5vh;
+  // margin-bottom: 5vh;
   column-gap: 20px;
+  padding: 1vh;
+  // background-color: red;
 //   margin-bottom: 5vh;
 
   .col1 {
@@ -15,24 +25,14 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    // border: 1px solid black;
-    background-color: white;
-
-    // background: #white;
-
-    background: linear-gradient(
-      35deg,
-      #292b46 0%,
-      #292b46 84.7%,
-      #292b46 85%,
-      #292b46 91%,
-      #292b46 91.3%
-    );
-    box-shadow: 0 10px 60px 0 white, inset 0px -10px 17px 2px white;
-    border-radius: 25px;
+    
+    background-color: #FEF2F1;
+    box-shadow: 2.5px 5px 2.5px 5px #292b46;
+    border-radius: 10px;
     z-index: -1;
-    color: white;
+    color: black;
     border: 0.1px solid transparent;
+
 
     .img-container {
       display: flex;

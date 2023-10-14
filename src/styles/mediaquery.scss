@@ -215,53 +215,58 @@
 
 @media screen and (max-width: 600px) {
   #home {
-    height: unset;
+    // height: unset;
+    height: 90vh;
+     
+    //  background-color: #87A2CF;
     flex-direction: column-reverse;
-    // padding: 0;
-        // margin: 0;
+    // background-color: red;
 
     > section {
+      height: 100%;
+     
       &:first-of-type {
+        // position: absolute;
+        // height: calc(100% - 30vh);
+        height: 60%;
+        // background-color: red;
         border: none;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         align-items: center;
         text-align: center;
-        // padding: 0;
-        // margin: 0;
-        // background-color: green;
-
-
 
         .typewriterpara {
-          padding-top: 2rem;
-          // background-color: purple;
+          // padding-top: 2rem;
         }
 
         > div {
+          height: 100%;
           border: none;
-          // display: flex;
-          // justify-content: center;
-          // padding-top: 3rem;
-          // background-color: red;
           margin: 0;
           padding: 0;
+          width: 80vw;
+          // text-align: center;
+          // align-items: center;
+           .myName{
+            // background-color: green;
+            color:#F26440 ;
+            font-weight: 600;
+            font-size: xx-large;
+            letter-spacing: 2px;
+            padding: 0 2vh
+          }
           > h1 {
             font: 900 2.5rem $text1;
           }
           > div {
             flex-direction: row;
             justify-content: space-between;
-            // background-color: yellow;
-
-            padding-top: 4vh;
-            // margin-top: 5vh;
           }
           aside {
             align-items: center;
             width: 100%;
-            padding-top: 2vh;
+            // padding-top: 2vh;
           }
 
           article[data-special] {
@@ -290,11 +295,23 @@
             }
           }
         }
-      }
+      
+    }
+
 
       &:last-of-type {
+        height: calc(100% - 60%);
+
+        
+
+        // margin-top: 100vh;
         border: none;
-        // background-color: red;
+        // background-color: blue;
+        text-align: center;
+        img{
+          margin-top: 0.5vh;
+          // background-color: pink;
+        }
       }
     }
 
@@ -306,10 +323,11 @@
   }
 
   #work {
-    // background-color: green;
-    height: 50%;
+    // background-color: pink;
+    height: 60vh;
     > section {
       width: 100%;
+      padding: 2%;
       // background-color: red;
       > article {
         width: 100%;
@@ -321,11 +339,18 @@
         box-shadow: 0 0 5px $color1;
         // background-color: yellow;
         // margin: 0.5vh;
-        padding: 1.2vh;
+        padding: 1vh;
+        img{
+          // background-color: red;
+          // width: 100%;
+          object-fit: cover;
+        }
 
         > aside {
           padding: 0.1rem;
           width: 100%;
+          // background-color: green;
+          flex-wrap: wrap;
 
           .aside-box{
             width: 100%;
@@ -339,16 +364,15 @@
           }
 
           > h3 {
-            margin: 1rem;
+            // margin: 1rem;
+            // background-color: red;
           }
 
           > p {
-            // letter-spacing: 2px;
-            // line-height: unset;
-            margin: 0%;
+            
             font-size: 0.70rem;
             letter-spacing: 1px;
-            line-height: 200%;
+            
           }
 
           
@@ -390,18 +414,21 @@
 
   //technologies
 #technologies{
+  height: 140vh;
   >h1{
     font-size: xx-large;
     font-weight: 700;
     margin-bottom: -100px;
     align-items: center;
     font: 700 2.5rem $text2;
+    // background-color: red;
   }
   .container{
     display: flex;
       flex-direction: column;
       width: 80%;
       height: 120vh;
+      // background-color: red;
       // border-radius: 100px;
       // background-color: red;
       .col1{
@@ -446,11 +473,3 @@
   }
 }
 
-@media screen and (max-width: 350px) {
-  
-// .container{
-//   background-color: red;
-// }
-
- 
-}

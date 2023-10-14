@@ -2,7 +2,9 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import TypewriterClass from "typewriter-effect";
 import { BsArrowUpRight, BsChevronDown } from "react-icons/bs";
-import  me from "../assets/me3.png"
+// import  me from "../assets/me3.png"
+import  me from "../assets/me3_1.png"
+
 const Home = () => {
   const clientCount=useRef(null);
   const projectCount=useRef(null);
@@ -48,7 +50,12 @@ const Home = () => {
     <section>
       <div>
         <motion.h2 {...animations.h1}>
-          Hi, I Am <br /> Ashwani Singh
+          Hi, I Am <br /> 
+          <span className="myName">
+          Ashwani  
+
+          </span>
+          Singh
         </motion.h2>
 
         <TypewriterClass

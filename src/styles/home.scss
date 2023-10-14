@@ -8,20 +8,30 @@
   
     > section {
       width: 100%;
+      // background-color: green;
 
   
       &:first-of-type {
         padding-left: $p;
         // border-top: $color6_2;
 
-        // background-color: green;
+        // background-color: red;
   
         > div {
           // border-top:  solid $color6_2;
           height: 100%;
           padding-top: 2rem;
+          .myName{
+            // background-color: green;
+            color:#F26440 ;
+            font-weight: 600;
+            font-size: xx-large;
+            letter-spacing: 2px;
+            padding: 0 1vh 0 0
+          }
           > h2 {
             font: 300 1.5rem $text1;
+            // background-color: blue;
           }
   
           .typewriterpara {
@@ -39,6 +49,7 @@
             gap: 2rem;
             align-items: center;
             margin-bottom: -4rem;
+            
             > a {
               &:first-of-type {
                 background-color: $color3;
